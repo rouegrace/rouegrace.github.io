@@ -1,0 +1,97 @@
+
+a:hover /* style seen when hovering mouse on the link*/
+{
+color: salmon;
+text-decoration: none /*removes underline from the link*/
+}
+/* style seen when clicking link*/
+a:focus
+{
+color:purple;
+}
+
+/* effect seen when visited link*/
+a:visited
+{
+background-color:  black;
+
+}
+
+.my_color
+{
+    color: aquamarine;
+
+}
+.my_font
+{
+font-size:22px;
+}
+
+/* Border,Padding and Margin*/
+.my_box
+{
+font-size:20px;
+background-color: rgb(107, 166, 189);
+
+/*border-top: 5px;
+border-top-style:solid;
+border-top-color: gold;
+
+border-bottom: 5px;
+border-bottom-style: dotted;
+border-bottom-color: gold;
+
+border-left: 5px;
+border-left-color: gold;
+border-left-style: solid*/
+
+border:5px solid gainsboro ; /*shortcut*/
+
+/*padding-top: 20px;
+padding-left: 20px;
+padding-right: 20px;
+padding-bottom:20px;*/
+
+padding:20px; /*shortcut*/
+
+/*margin-top:20px;
+margin-bottom: 20px;
+margin-left: 20px;
+margin-right: 20px;*/
+
+margin:20px; /*shortcut*/
+width: 75%;
+height: 400px;
+
+background-image:url(photos/beach.jpg); /*change background image*/
+background-size: cover; /*cover or contain*/
+background-repeat: no-repeat; 
+background-attachment: fixed;
+
+margin-left: auto;
+margin-right:auto;
+
+}
+/*media*/
+@media (max-width:500px)
+
+{
+h1
+{font-size: 5px;}
+
+}
+
+/*style for the Form */
+form {
+width:50%;
+margin-left: auto;
+margin-right: auto;
+
+}
+
+.my_input_txt
+{
+width:100%;
+margin-bottom:30px;
+
+}
