@@ -1,0 +1,54 @@
+/*Font*/
+body
+{
+    
+   /* font-family: 'Sedgwick Ave', cursive;*/
+    font-family: 'Dosis', sans-serif;
+
+}
+
+h1
+{
+    font-family: 'Dosis', sans-serif;
+}
+
+/* Border
+div
+{
+border:1px solid gray
+} */
+
+/*button - click me*/
+.my_btn_color
+{
+background-color:red;
+
+}
+
+.btn-primary
+{
+    background-color: #5bc0de;
+    border-color: #46b8da;
+
+}
+/*Background of Row 1*/
+.jumbotron
+{
+    /*background-color: powderblue */
+    background-image:url(bokeh.png);
+    background-attachment:fixed;
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    
+}
+
+/*font color*/
+h1
+{
+Color: white !important;
+
+}
+
+p {
+    
+}

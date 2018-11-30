@@ -9,3 +9,11 @@ font-size: 20px;
 {
     color: aquamarine;
 }
+
+.my_background
+{
+    background-image:url(photos/sand.jpg); /*change background image*/
+    background-size: cover; /*cover or contain*/
+    background-repeat: no-repeat; 
+    background-attachment:fixed;
+}
