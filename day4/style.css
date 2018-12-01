@@ -1,15 +1,13 @@
 /*Font*/
 body
 {
-    
-   /* font-family: 'Sedgwick Ave', cursive;*/
+    /* font-family: 'Sedgwick Ave', cursive;*/
     font-family: 'Dosis', sans-serif;
-
 }
 
 h1
 {
-    font-family: 'Dosis', sans-serif;
+    font-family: 'Sedgwick Ave', cursive;
 }
 
 /* Border
@@ -35,7 +33,7 @@ background-color:red;
 .jumbotron
 {
     /*background-color: powderblue */
-    background-image:url(bokeh.png);
+    background-image:url(photos/bokeh.png);
     background-attachment:fixed;
     background-repeat: no-repeat; 
     background-size: cover; 
@@ -49,6 +47,35 @@ Color: white !important;
 
 }
 
-p {
-    
+.my_icon_color /*color of icon on bottom footer*/
+{
+color: black
+
+}
+
+.my_link:hover /*removes the underline on the phone number and email when the mouse hovers*/
+{
+text-decoration:none;
+}
+
+.my_link /*changed color to black when link is clicked*/
+{
+color: black
+}
+
+.general_spacing
+{
+margin-bottom:100px;
+
+}
+.jumbotron_font /*what are you waiting for*/
+{
+color:whitesmoke
+}
+
+.about_header_pic
+{
+width:20px;
+
+
 }

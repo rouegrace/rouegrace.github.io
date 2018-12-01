@@ -4,38 +4,89 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-<!--imported font from google-->
+    
+    <!--Font imported from google--->
     <link href="https://fonts.googleapis.com/css?family=Sedgwick+Ave" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Dosis|Sedgwick+Ave" rel="stylesheet">
-<!--Bootstrap--> 
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    
+    <!--------Bootstrap------------> 
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"> 
+    
+    <!--Icon from Fontawesome.com --> 
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/fontawesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="style.css">
   
-    <title>Document</title>
+    <title>Index</title>
 
 </head>
 
 <body>
-    <!--Table-->
+<!--Top Navigation Bar-->
+<nav class="navbar navbar-default navbar-fixed-top"> <!--navigation bar is fixed on top-->
+    <div class ="container">
+
+        <div class="navbar-header">
+            <button type="button" class= "navbar-toggle collapsed"
+            data-target="#my-nav" aria-expanded="false">
+
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+
+            </button>
+
+         <a href="" class="navbar-brand"> MY LOGO </a> <!--company logo--> 
+        
+     </div>
+
+        <div class="collapse navbar-collapse" id="my-nv">
+            <ul class="nav navbar-nav">
+                <li class="active"> <!--higlights the current page-->
+                    <a href="https://" style="margin-right:20px" > Home</a>
+                </li>
+
+                <li class="">
+                    <a href=""style="margin-right:20px">Links</a>
+                </li>
+
+                <li class="">
+                        <a href=""style="margin-right:20px"> About Us</a>
+                </li>
+
+                <li class="">
+                        <a href=""> Contact Us</a>
+                </li>
+            </ul>
+        </div>
+
+
+</div>
+</nav>
+
+    <div class="general_spacing"> <!--space between navigation bar and jumbotron-->
+    </div>
+
+<!----------Table--------->
 <div class="container">
 
-<!--Row1-->
+<!----------Row1---------->
     <div class="row"> 
         <div class="col-md-12">
                 <div class="jumbotron">
                         <h1>Hello, Darkness my Old Friend</h1>
-                        <p>What are you waiting for?</p>
+                        <p> <a class="jumbotron_font"> What are you waiting for?</a></p>
                         <p><a class="btn btn-primary btn-lg"  href="#" role="button">click me</a></p>
-                      </div>         
+                </div>         
         </div>
     </div>
 
-<!--Row2--> 
+<!----------Row2----------> 
      <div class="row">     
          <div class="col-md-4">
             
             <div class="thumbnail">
-                <img src="hoodie.png" alt="...">
+                <img src="photos/hoodie.png" alt="...">
                 <div class="caption">
                 <h3>Thumbnail label</h3> <!--Row 2 Col 1 title-->
                             <p>I've come to talk with you again <!--body-->
@@ -57,7 +108,7 @@
             <div class="col-md-4">
 
                     <div class="thumbnail">
-                        <img src="pumpkin.png" alt="...">
+                        <img src="photos/pumpkin.png" alt="...">
                         <div class="caption">
                         <h3>Thumbnail label 2</h3> <!--Row 2 Col 2 title-->
                                   <p>Left its seeds while I was sleeping <!--body-->
@@ -79,7 +130,7 @@
             <div class="col-md-4">
                 
                 <div class="thumbnail">
-                        <img src="smile.png" alt="...">
+                        <img src="photos/smile.png" alt="...">
                         <div class="caption">
                         <h3>Thumbnail label 3</h3> <!--Row 2 Col 3 title-->
                                   <p> Still remains <!--body-->
@@ -97,15 +148,13 @@
    
         </div>
 
-<!--Row3-->  
+<!----------Row3---------->  
     <div class="row"> 
             <div class="col-md-12">
                 
                 <div class= "embed-responsive embed-responsive-16by9">
                     <iframe src="https://www.youtube.com/embed/u9Dg-g7t2l4" class="embed-responsive-item">
                     </iframe>
-
-
                </div>
          </div>
     </div>
@@ -113,43 +162,198 @@
 
 
 
-<!--Row4-->
+<!----------Row4---------->
     <div class="row">      
             <div class="col-md-6">
-                Row 4 Col 1
-            </div>
            
-            <div class="col-md-6">
-                Row 4 Col 2
-            </div>
+                
+           <h2 class="text-center">  Be One of Us </h2>  <!--Title-->
+           <hr> <!--horizontal line -->
+    
+           <!--
+           <legend> Be One of Us </legend>
+                <form action="">   another way to add title-->
+             
+                    <!--Name field-->
+                <div class="form-group">
+                     <label for="">     <!--text wrapping-->
+                        <label for=""> Fullname</label>
+                        <input type="text" name="" id="" class="form-control" placeholder="First Name _ Last Name">
+                     </label>
+                  </div>
+                   
+                  <!--Email-->
+                    <div class="form-group">
+                            <label> 
+                               <label for=""> Email </label>
+                               <input type="text" name="" id="" class="form-control" placeholder="mail@mail.com">
+                            </label>
+                    </div>   
+                  
+                    <!--Radio Button-->
+                   <div class="form-group">
+                        <div class="radio">
+                        <label>
+                            <input type="radio" name="newsletter" id=""> Send me newsletter 
+                        </label>
+                    </div>
+
+                        <div class="radio">
+                        <label>
+                            <input type="radio" name="newsletter" id=""> Don't want newsletter 
+                        </label>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <input type="submit" value="SEND" class="btn btn-primary">
+                    </div>                  
+        </div>
+                
+                <!-- Text with Paragraph-->
+                <div class="col-md-6">
+                <h2 class="text-center">  Title </h2> 
+                <hr>
+                <p>In restless dreams I walked alone.
+                   Narrow streets of cobblestone.
+                   'Neath the halo of a street lamp.
+                   I turned my collar to the cold and damp.
+                   When my eyes were stabbed by the flash of a neon light.
+                   That split the night.
+                   And touched the sound of silence.
+                   And in the naked light I saw.
+                   Ten thousand people, maybe more.
+                   People talking without speaking.
+                   People hearing without listening.
+                   People writing songs that voices never share.
+                   And no one dared.
+                   Disturb the sound of silence.
+                <br>
+                 "Fools, " said I, "You do not know.
+                  Silence, like a cancer, grows.
+                  Hear my words that I might teach you.
+                  Take my arms that I might reach you".
+                  But my words, like silent raindrops fell.
+                  And echoed in the wells, of silence.
+                 </p>
+
+                </div>
+             
+
+    
     </div>
 
-<!--Row5--> 
+<!----------Row5----------> 
     <div class="row">     
         <div class="col-md-4">
-            Row 5 Col 1
-        </div>
-       
-        <div class="col-md-4">
-            Row 5 Col 2
-        </div>
+          
+            <h3 class="text-center"> Opening Hours </h3>
+            <table class= "table table-striped"> <!-- Table-->
         
+            <thead>
+                <tbody>
+                <tr>
+                        <th> Day </th>
+                        <th> Hours </th>
+               </tr>        
+              </tbody>
+            </thead>
+
+            <tbody>
+                    <tr>
+                        <td>Monday to Thursday</td>
+                        <td>9AM -5AM</td>
+                    </tr>   
+
+                    <tr>
+                        <td>Friday to Saturday</td>
+                        <td>11AM -3AM</td>
+                    </tr>  
+
+                    <tr>
+                        <td>Sunday</td>
+                        <td>Closed</td>
+                    </tr>  
+                 </tbody>
+            </table>           
+        </div>
+
+        <!--MAP-->
         <div class="col-md-4">
-            Row 5 Col 3
+
+          <div class="embed-responsive embed-responsive-4by3">
+                <iframe class= "embed-responsive-item"src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15955.215180953743!2d103.776566!3d1.2921165!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xa9175c79256d25d7!2sNUS-ISS!5e0!3m2!1sen!2ssg!4v1543632452384">
+                </iframe>
+          </div>
+        </div>
+
+        
+        <!--List and Icons-->
+        <div class="col-md-4">
+           <h3>Check me out</h3>
+           <ul class="list-group">
+              
+            <!--Phone-->
+                <li class="list-group-item"> 
+                    <a href="tel:+6512345678" class="my_link" > <!--immediately initiates call-->
+                    <i class="fa fa-phone-square" aria-hidden="true"> </i> &nbsp; &nbsp;+65 12345678 
+                    </a>
+                </li>
+            
+            <!--Email-->
+                <li class="list-group-item"> 
+                    <a href="mailto:simon&garfunkel@email.com" class="my_link"> <!--immediately initiates email/opens mail app-->
+                    <i class="fa fa-envelope-o" aria-hidden="true"></i> &nbsp; &nbsp;simon&garfunkel@email.com 
+                    </a>
+                </li>     
+
+            <!--URL-->
+                <li class="list-group-item"> 
+                    <a href="https://www.simonandgarfunkel.com" class="my_link" >
+                    <i class= "fa fa-link" aria-hidden="true"></i> &nbsp; &nbsp;https://www.simonandgarfunkel.com </li> 
+                   </a>
+
+            </ul>     
         </div>
     </div>
 
-<!--Row6-->  
+<!----------Row6---------->  
     <div class="row"> 
-        <div class="col-md-12">
-             Row 6 Col 1
-        </div>
-    </div>
+        <div class="col-md-12 text-center"> 
+        <ul class="list-inline">
+        <hr>
+       
+        <li>
+             <a href="http:instagram/simonandgarfunkel//"> <!--Instagram Icon-->
+                <i class="fa fa-instagram fa-2x my_icon_color" aria-hidden="true"></i>
+             </a>
+           </li>
+
+           <li>
+              <a href="http:facebook/simonandgarfunkel//"> <!--FB Icon-->
+                <i class="fa fa-facebook fa-2x my_icon_color" aria-hidden="true"></i>
+              </a>
+          </li>
+
+          <li>
+              <a href="http:twitter/simonandgarfunkel//"> <!--Twitter Icon-->
+                <i class="fa fa-twitter fa-2x my_icon_color" aria-hidden="true"></i>
+             </a>
+          </li>
+    
+          <li>
+             <a href="http:snapchat/simonandgarfunkel//"> <!--Snapchat Icon-->
+                <i class="fa fa-snapchat fa-2x my_icon_color " aria-hidden="true"></i>
+            </a>
+          </li>
+
+         </ul>          
+     </div>
+ </div>
    
+
+
+
 </div>
-
-
-  
-  
 </body>
 </html>
