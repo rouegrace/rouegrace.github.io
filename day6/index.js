@@ -57,8 +57,6 @@ alert("Hi you hit the button")
 
 }
 
-
-
 //------IF condition------
 
 var n = 5;
