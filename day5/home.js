@@ -37,4 +37,20 @@ var total = 200;
 var qtyTotal = qty + total;
 console.log(qtyTotal);
 
+var firstnumber = 10;
+var secondnumber = "10";
+var totalnumber = firstnumber + secondnumber;
+
+console.log(totalnumber);
+
+var compareresult = (firstnumber !== secondnumber);
+console.log(compareresult);
+
+var testA = "Singapore";
+var testB = "Singapore";
+var compareTest = (testA != testB);
+console.log(compareTest);
+
+var myHtmlValue = document.getElementById("my_name").value;
+console.log(myHtmlValue);
 
