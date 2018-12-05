@@ -53,7 +53,7 @@ greeting("Who", "You", "1985");
 //-----------Alert--------
 function testMe ()
 {
-alert("Hi you hit the button")
+alert("Hi! you hit the button")
 
 }
 
