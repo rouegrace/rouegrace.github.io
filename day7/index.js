@@ -109,3 +109,50 @@ step = step +1;
 
 }
 
+ //get individual value of an array
+
+ var numbers_2 = [1,2,3,4,5,6,7,8,9,10];
+ for (var a = 0; a < numbers_2.length; a++)
+ {
+ console.log(numbers_2[a]);
+ }
+
+
+ //.Length and .Push
+
+var collections = [];  //empty array variable
+
+console.log(collections);
+collections.push("Test");
+console.log(collections);
+
+collections.push("Test 2");
+console.log(collections);
+
+// 
+
+var myCollections = [];
+function addMe()
+{
+var myText = document.getElementById ("myText").value;
+myCollections.push(myText);
+//the loops assigns/replaces current value. added currResultValue to keep the value.
+//values are now kept but also repeat all the strings. to avoid this, empty value by adding any empty string
+//document.getElementById("myResult").innerHTML = "";
+
+
+document.getElementById("myResult").innerHTML = "";
+for(var a=0; a<myCollections.length; a++)
+{
+var currValue = myCollections [a] + "<br>"; //myCollections[a] is the index
+var currResultValue = document.getElementById ("myResult").innerHTML;
+document.getElementById("myResult").innerHTML = currResultValue + currValue;
+}
+
+//document.getElementById ("myResult").value;  // .value - only displays or INPUTs HTML element
+//document.getElementById ("myResult").innerHTML = "This is test only";// .innerhtml -can accept html element value
+
+}
+
+var test = document.getElementById ("myResult").innerHTML;
+console.log(test);

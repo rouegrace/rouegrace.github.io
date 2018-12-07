@@ -1,12 +1,12 @@
 .bg 
 {
     /*background*/
-    background:url("pics/gray.png");
+    background:url("pics/bg.jpg");
 
     /* Full height */
     height: 100%; 
 
-    /* Center and scale the image nicely */
+    /* Center and scale the image */
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
